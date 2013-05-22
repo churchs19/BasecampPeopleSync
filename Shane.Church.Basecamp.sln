@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shane.Church.Basecamp.OutlookPeopleSync", "Shane.Church.Basecamp.OutlookPeopleSync\Shane.Church.Basecamp.OutlookPeopleSync.csproj", "{7D5DC0FF-F905-4691-AD32-366E0A3D7DED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shane.Church.Basecamp", "Shane.Church.Basecamp\Shane.Church.Basecamp.csproj", "{31C6096C-0CB5-4571-A7F8-FC4673916785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shane.Church.Basecamp.Tests", "Shane.Church.Basecamp.Tests\Shane.Church.Basecamp.Tests.csproj", "{58D1632D-6CC1-4E13-82EF-04353B4DDA3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{866084E8-CEE0-48A3-B512-D442463EE668}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Shane.Church.Basecamp.vsmdi = Shane.Church.Basecamp.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Shane.Church.Basecamp.Installer", "Shane.Church.Basecamp.Installer\Shane.Church.Basecamp.Installer.vdproj", "{543FCCB4-AEFB-4DEF-A788-0FC0F6BAEE91}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Shane.Church.Basecamp.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D5DC0FF-F905-4691-AD32-366E0A3D7DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5DC0FF-F905-4691-AD32-366E0A3D7DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5DC0FF-F905-4691-AD32-366E0A3D7DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5DC0FF-F905-4691-AD32-366E0A3D7DED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31C6096C-0CB5-4571-A7F8-FC4673916785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C6096C-0CB5-4571-A7F8-FC4673916785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C6096C-0CB5-4571-A7F8-FC4673916785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C6096C-0CB5-4571-A7F8-FC4673916785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D1632D-6CC1-4E13-82EF-04353B4DDA3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D1632D-6CC1-4E13-82EF-04353B4DDA3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D1632D-6CC1-4E13-82EF-04353B4DDA3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D1632D-6CC1-4E13-82EF-04353B4DDA3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{543FCCB4-AEFB-4DEF-A788-0FC0F6BAEE91}.Debug|Any CPU.ActiveCfg = Debug
+		{543FCCB4-AEFB-4DEF-A788-0FC0F6BAEE91}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
